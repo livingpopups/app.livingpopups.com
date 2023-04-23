@@ -1,0 +1,18 @@
+{
+	"applinks": {
+		"details": [{
+			"comment": "LPBookspace",
+			"appIDs": [ "H5Y73ZS6HY.com.LivingPopups.LPBook" ],
+			"patterns": [
+				{ "/": "/lpbookspace*" }
+			]
+		},
+		{
+			"comment": "Smurfs FCBD",
+			"appIDs": [ "H5Y73ZS6HY.com.livingpopups.smurfsfcbd" ],
+			"patterns": [
+				{ "/": "/smurfsfcbd*" }
+			]
+		}]
+	}
+}
