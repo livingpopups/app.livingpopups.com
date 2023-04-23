@@ -1,18 +1,26 @@
 {
 	"applinks": {
-		"details": [{
-			"comment": "LPBookspace",
-			"appIDs": [ "H5Y73ZS6HY.com.LivingPopups.LPBook" ],
-			"patterns": [
-				{ "/": "/lpbookspace*" }
-			]
-		},
-		{
-			"comment": "Smurfs FCBD",
-			"appIDs": [ "H5Y73ZS6HY.com.livingpopups.smurfsfcbd" ],
-			"patterns": [
-				{ "/": "/smurfsfcbd*" }
-			]
-		}]
+		"details": [
+			{
+				"appIDs": [
+					"H5Y73ZS6HY.com.LivingPopups.LPBook"
+				],
+				"components": [
+					{
+						"#": "no_universal_links",
+						"exclude": true,
+						"comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+					},
+					{
+						"/": "/lpbookspace",
+						"comment": "Matches any URL whose path starts with /buy/"
+					},
+					{
+						"/": "/*",
+						"exclude": true,
+					}
+				]
+			}
+		]
 	}
 }
