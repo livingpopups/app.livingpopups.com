@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.livingpopups.lpbook",
+    "sha256_cert_fingerprints": ["76:3d:84:1e:7b:d7:af:5b:5b:5b:71:70:6c:19:d1:f9:47:61:86:ed:27:c0:4c:4e:ec:9d:85:70:a8:60:38:de"]
+  }
+}]
