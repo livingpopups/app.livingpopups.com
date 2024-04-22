@@ -22,5 +22,17 @@
         "DC:E1:6E:C9:9D:63:8C:5C:AB:38:E6:2A:6F:56:09:85:9A:52:87:38:06:A1:77:DA:16:A5:4F:F6:65:6C:74:C6"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.livingpopups.sjsuar",
+      "sha256_cert_fingerprints": [
+        "65:8D:40:2A:F3:CB:45:E2:1F:33:FF:B0:41:E4:AF:F0:A5:1D:AB:EC:AC:E4:A0:EA:27:64:E6:74:5A:4D:1C:33"
+      ]
+    }
   }
 ]
