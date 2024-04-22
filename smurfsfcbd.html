@@ -1,7 +1,27 @@
 <html>
-  <head>
-    <meta http-equiv="refresh" content="0;url=https://livingpopups.com/smurfsfcbd" />
-    <title></title>
-  </head>
- <body></body>
+
+<head>
+  <meta http-equiv="refresh" content="0;url=https://livingpopups.com/smurfsfcbd" />
+  <title></title>
+  <script>
+    function redirectByMobileOS() {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      // for Android
+      if (/android/i.test(userAgent)) {
+        window.location.href = "https://play.google.com/store/apps/details?id=com.livingpopups.smurfsfcbd";
+      }
+
+      // for iOS
+      if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        window.location.href = "https://apps.apple.com/us/app/smurfs-fcbd/id1664783480";
+      }
+    }
+  </script>
+</head>
+
+<body onload="redirectByMobileOS()">
+
+</body>
+
 </html>
