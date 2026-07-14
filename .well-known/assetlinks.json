@@ -34,5 +34,17 @@
         "65:8D:40:2A:F3:CB:45:E2:1F:33:FF:B0:41:E4:AF:F0:A5:1D:AB:EC:AC:E4:A0:EA:27:64:E6:74:5A:4D:1C:33"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.livingpopups.tenxpro",
+      "sha256_cert_fingerprints": [
+        "6C:8D:BA:76:54:48:E0:68:8B:19:BE:10:72:76:B7:BD:CA:7D:4A:37:15:07:92:8C:DA:F4:88:1C:DD:64:2A:92"
+      ]
+    }
   }
 ]
